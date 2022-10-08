@@ -37,20 +37,20 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
-      <version>1.1.1</version>
+      <version>1.2.7</version>
     </dependency>
     <!-- 实现 slf4j 接口并且整合 -->
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>1.1.1</version>
+      <version>1.2.7</version>
     </dependency>
 
     <!-- 2.数据库相关依赖 -->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.35</version>
+      <version>8.0.28</version>
     </dependency>
     <dependency>
       <groupId>c3p0</groupId>
@@ -62,7 +62,7 @@
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
-      <version>3.3.0</version>
+      <version>3.5.6</version>
     </dependency>
     <!-- mybatis自身实现spring整合依赖 -->
     <dependency>
@@ -85,7 +85,7 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
-      <version>2.9.10.1</version>
+      <version>2.13.4</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -98,51 +98,51 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.19.RELEASE</version>
     </dependency>
     <!--ioc-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.22.RELEASE</version>
     </dependency>
     <!--包扫描-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.22.RELEASE</version>
     </dependency>
 
     <!--2) spring dao层依赖 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.22.RELEASE</version>
     </dependency>
     <!-- spring 事务相关依赖 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-tx</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.22.RELEASE</version>
     </dependency>
 
     <!-- 3) spring web依赖 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.22.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.22.RELEASE</version>
     </dependency>
 
     <!-- 4)spring test相关依赖 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>4.1.7.RELEASE</version>
+      <version>5.2.19.RELEASE</version>
     </dependency>
 
   </dependencies>
